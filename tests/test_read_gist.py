@@ -7,8 +7,8 @@ from src.request_files.gists_request_service import GistsRequests
 
 
 class TestReadGist:
-    request_valid_token = "token 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"
-    request_restricted_token = "token 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"
+    request_valid_token = ""
+    request_restricted_token = ""
     gists_requests = GistsRequests()
 
     @pytest.mark.usefixtures("post_gist_and_delete")
